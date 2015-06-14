@@ -1,0 +1,171 @@
+body
+{
+
+}
+
+#content
+{
+
+}
+
+
+#jumbotron
+{
+    background-image: url("../thecodesrc/main-jumbotron-image.JPG");
+    height: 800px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+}
+
+
+#jumbotron h1
+{
+    font-family: "Rajdhani",sans-serif;
+    color: white;
+
+}
+
+#jumbotron h3
+{
+    font-family: "Anaheim",sans-serif;
+    color: white;
+}
+
+#button-primary
+{
+ padding: 15px;
+    height: 10px;
+    width: 40px;
+    border: solid;
+    border-color: white;
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+
+}
+
+#button-primary:hover
+{
+    background-color: black;
+    border-color: black;
+    color: white;
+    text-decoration: none;
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+}
+
+#button-primary:visited
+{
+    text-decoration: none;
+}
+
+#second-header
+{
+    height: 100px;
+    width: 100%;
+    background-color: darkgrey;
+    color: white;
+    font-family: "Anaheim", sans-serif;
+}
+
+#mason-bio
+{
+    width: 200px;
+    height: 200px;
+    background-image: url('main-jumbotron-image.JPG');
+    background-size: cover;
+    display: inline-block;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-color: black;
+    margin-left: 200px;
+}
+
+#nathan-bio
+{
+    width: 200px;
+    height: 200px;
+    background-image: url('main-jumbotron-image.JPG');
+    background-size: cover;
+    display: inline-block;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-color: black;
+    margin-left: 200px;
+
+}
+
+#banner
+{
+    height: 60px;
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+    background-color: darkgray;
+    font-family: "Anaheim", sans-serif;
+
+
+}
+
+#banner li
+{
+    color: black;
+    display: inline;
+    float: right;
+    margin-top: 0;
+}
+
+#footer h6
+{
+    color: darkgray;
+    text-align: center;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.navItem {
+    background: white;
+    border-bottom: solid 3px black;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background 500ms, border-bottom 700ms  cubic-bezier(0.465, 0.183, 0.153, 0.946);
+    width: auto;
+    display: table-cell;
+
+
+}
+.navItem:hover {
+    border-bottom: solid 3px white;
+    font-family: Arial, Helvetica, sans-serif;
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    transition: background 500ms, border-bottom 700ms  cubic-bezier(0.465, 0.183, 0.153, 0.946);
+    display: block;
+
+
+}
+#nav{
+
+    background: #004b98;
+    width: 100%;
+    position: fixed;
+
+}
+ul{
+    display: table;
+    table-layout: fixed;
+}
+ul li{
+
+    display: table-cell;
+
+}
